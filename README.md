@@ -9,13 +9,13 @@ Launching jade main container, subsequent containers within main container and l
 
 Go to pom.xml and find the profiles section where you can find two profiles 
 
-** a) jade-main **
+##### a) jade-main 
 
 	mainClass => jade.Boot
 	argument1 => conf
 	argument1 => src/main/resources/jade-main-container.properties
 
-** b) jade-spawn **
+##### b) jade-spawn 
 
 	mainClass => jade.Boot
 	argument1 => conf
